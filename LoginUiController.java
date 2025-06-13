@@ -19,7 +19,7 @@ import javafx.stage.Stage;
 import javafx.scene.Node;
 
 
-public class LoginUiController {
+public class LoginUiController{
      @FXML
     private Button LGBUTTON;
 
@@ -31,6 +31,19 @@ public class LoginUiController {
 
     @FXML
     private TextField UFIELD;
+    @FXML
+    void HandleLogin(ActionEvent event) {
+
+    }
+
+         @FXML
+    void SwitchToSignup(ActionEvent event) {
+
+        
+    
+    }
+
+
 
     private Stage stage;
     private Scene scene;

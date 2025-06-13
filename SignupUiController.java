@@ -24,6 +24,11 @@ public class SignupUiController {
     private TextField SUUFIELD;
 
     @FXML
+    void HandleSignup(ActionEvent event) {
+
+    }
+
+    @FXML
     void HandleLogin(ActionEvent event) throws IOException {
         App.setRoot("loginui");
         

@@ -6,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.io.IOException;
+import javafx.fxml.FXML;
 
 /**
  * JavaFX App
@@ -34,4 +35,8 @@ public class App extends Application {
         launch();
     }
 
+    @FXML
+    private void HandleSignup(javafx.event.ActionEvent event) {
+        // ...logic...
+    }
 }
